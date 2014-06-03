@@ -5,7 +5,7 @@ class CreateCourses < ActiveRecord::Migration
       t.string :acronym
       t.references :academic_unit, index: true
       t.references :teacher, index: true
-      t.string :semester_references
+      t.references :semester, index: true
 
       t.timestamps
     end

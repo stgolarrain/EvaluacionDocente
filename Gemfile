@@ -36,6 +36,10 @@ gem 'bootstrap-sass', '~> 3.1.1'
 gem 'twitter-bootstrap-rails', '~> 2.2.8'
 gem 'less-rails', '~> 2.5.0'
 gem 'therubyracer', '~> 0.12.1'
+gem 'nokogiri', '~> 1.6.2.1'
+gem 'mechanize', '~> 2.7.2'
+gem 'capybara', '~> 2.3.0'
+gem 'capybara-webkit', '~> 1.1.0'
 
 
 # Use ActiveModel has_secure_password

@@ -1,0 +1,526 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <base href="http://dsrd.uc.cl/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Admision, carreras, pregrado, postitulos, matriculas, Arancel, Financiamiento, Charlas UC, Visita la UC, información, servicio alumno, novatos, alumno Internacional" />
+  <meta name="title" content="Cursos - DSRD - PUC" />
+  <meta name="description" content="Toda la información sobre Admisión a carreras de pregrado, postgrados y postítulos. Procedimientos de matrículas y todos los servicios para el Alumno UC." />
+  <meta name="generator" content="Pontificia Universidad Cat�lica" />
+  <title>Cursos - DSRD - PUC</title>
+  <link href="/templates/uc_interior_ancha/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+
+<script type="text/javascript" charset="UTF-8">
+/* <![CDATA[ */
+try { if (undefined == xajax.config) xajax.config = {}; } catch (e) { xajax = {}; xajax.config = {}; };
+xajax.config.requestURI = "http://dsrd.uc.cl/alumnos-uc/cursos?option=com_programacion&Itemid=115";
+xajax.config.statusMessages = false;
+xajax.config.waitCursor = true;
+xajax.config.version = "xajax 0.5";
+xajax.config.legacy = false;
+xajax.config.defaultMode = "asynchronous";
+xajax.config.defaultMethod = "POST";
+/* ]]> */
+</script>
+<script type="text/javascript" src="/includes/xajax/xajax_js/xajax_core.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+/* <![CDATA[ */
+window.setTimeout(
+ function() {
+  var scriptExists = false;
+  try { if (xajax.isLoaded) scriptExists = true; }
+  catch (e) {}
+  if (!scriptExists) {
+   alert("Error: the xajax Javascript component could not be included. Perhaps the URL is incorrect?\nURL: /includes/xajax/xajax_js/xajax_core.js");
+  }
+ }, 2000);
+/* ]]> */
+</script>
+
+<script type='text/javascript' charset='UTF-8'>
+/* <![CDATA[ */
+xajax_CargaTemas = function() { return xajax.request( { xjxfun: 'CargaTemas' }, { parameters: arguments } ); };
+xajax_obtiene_link = function() { return xajax.request( { xjxfun: 'obtiene_link' }, { parameters: arguments } ); };
+xajax_Meses = function() { return xajax.request( { xjxfun: 'Meses' }, { parameters: arguments } ); };
+xajax_NoticiasLista = function() { return xajax.request( { xjxfun: 'NoticiasLista' }, { parameters: arguments } ); };
+xajax_cambia_meses = function() { return xajax.request( { xjxfun: 'cambia_meses' }, { parameters: arguments } ); };
+xajax_Lista_Publicaciones = function() { return xajax.request( { xjxfun: 'Lista_Publicaciones' }, { parameters: arguments } ); };
+xajax_grabaEncuesta = function() { return xajax.request( { xjxfun: 'grabaEncuesta' }, { parameters: arguments } ); };
+xajax_submenu = function() { return xajax.request( { xjxfun: 'submenu' }, { parameters: arguments } ); };
+xajax_cambiaImagen = function() { return xajax.request( { xjxfun: 'cambiaImagen' }, { parameters: arguments } ); };
+xajax_Regiones = function() { return xajax.request( { xjxfun: 'Regiones' }, { parameters: arguments } ); };
+xajax_Comunas = function() { return xajax.request( { xjxfun: 'Comunas' }, { parameters: arguments } ); };
+xajax_cargacomuna = function() { return xajax.request( { xjxfun: 'cargacomuna' }, { parameters: arguments } ); };
+xajax_busca_email = function() { return xajax.request( { xjxfun: 'busca_email' }, { parameters: arguments } ); };
+xajax_ResultadosEncuesta = function() { return xajax.request( { xjxfun: 'ResultadosEncuesta' }, { parameters: arguments } ); };
+xajax_CargaTemasMod = function() { return xajax.request( { xjxfun: 'CargaTemasMod' }, { parameters: arguments } ); };
+xajax_CargaProgramacion = function() { return xajax.request( { xjxfun: 'CargaProgramacion' }, { parameters: arguments } ); };
+xajax_CargaProgramacionModulo = function() { return xajax.request( { xjxfun: 'CargaProgramacionModulo' }, { parameters: arguments } ); };
+xajax_EnviarEmail = function() { return xajax.request( { xjxfun: 'EnviarEmail' }, { parameters: arguments } ); };
+xajax_BuscarTema = function() { return xajax.request( { xjxfun: 'BuscarTema' }, { parameters: arguments } ); };
+xajax_buscaCarreras = function() { return xajax.request( { xjxfun: 'buscaCarreras' }, { parameters: arguments } ); };
+xajax_EnviarVisita = function() { return xajax.request( { xjxfun: 'EnviarVisita' }, { parameters: arguments } ); };
+xajax_EnviarCertificado = function() { return xajax.request( { xjxfun: 'EnviarCertificado' }, { parameters: arguments } ); };
+xajax_EnviarVisitaCarrera = function() { return xajax.request( { xjxfun: 'EnviarVisitaCarrera' }, { parameters: arguments } ); };
+xajax_BuscaAliasCertificado = function() { return xajax.request( { xjxfun: 'BuscaAliasCertificado' }, { parameters: arguments } ); };
+xajax_ComunasVisita = function() { return xajax.request( { xjxfun: 'ComunasVisita' }, { parameters: arguments } ); };
+/* ]]> */
+</script>
+
+<link href="/templates/uc/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+    var GB_ROOT_DIR = "greybox/";
+</script>
+<script type="text/javascript" src="/greybox/AJS.js" defer="defer"></script>
+<script type="text/javascript" src="/greybox/AJS_fx.js" defer="defer"></script>
+<script type="text/javascript" src="/greybox/gb_scripts.js" defer="defer"></script>
+<script type="text/javascript" src="/js/funciones.js" defer="defer"></script>
+<script type='text/javascript' src='/js/jquery.js'></script>
+<script type='text/javascript' src='/js/jquery.rut.js'></script>
+<link href="/greybox/gb_styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="contenedor">
+
+  <div id="top">
+    
+        <div class="logo">
+<div><a href="http://www.uc.cl"><img src="/images/logopuc.jpg" alt="Pontificia Universidad Catolica de Chile" width="190" border="0" height="85" /></a></div>
+<div><a href="/"><img src="/images/logoadmision.jpg" alt="Admisión y Registros Académicos" width="450" border="0" height="85" /></a></div>
+</div>
+    <script type="text/javascript" defer="defer">	
+	function busqueda(){
+		var bus = document.getElementById('txtbuscar').value; 
+		bus = "/buscador?buscar="+bus;
+		self.location.href = bus;	
+	}
+</script>
+<div class="buscar">
+	<div class="busca">
+	<input name="txtbuscar" type="text" id="txtbuscar" value="Ingrese b&uacute;squeda" class="caja_buscar img_mid" onfocus="this.value='';" onblur="if (this.value == '') {this.value='Ingrese b&uacute;squeda'; };"/>
+	<input type="image" src="/images/btn_buscar.gif" value="Buscar" class="img_mid" onclick="busqueda()" />
+	</div>	
+</div>
+
+    <div class="clear"></div>
+  </div>
+  <div id="contenido">
+    
+<div class="icos">
+  <div class="ucpuntocl"><a href="http://www.uc.cl">UC.cl</a>&nbsp;&nbsp;<span class="separa">&nbsp;</span>&nbsp;</div>
+  <div class="facebook"><a href="http://www.facebook.com/admisionenlauc" class="facebook"></a> <span class="separa">&nbsp;</span></div>
+   <div class="twitter"><a href="http://twitter.com/admision_uc" class="facebook"></a> <span class="separa">&nbsp;</span></div>
+  <div class="home"><a href="/" class="home"></a> <span class="separa">&nbsp;</span></div>
+    <div class="sobre">
+    <a href="/alumnos-uc/contacto" class="sobre"></a>
+    <span class="separa">&nbsp;</span>
+  </div>
+  <div class="mapa">
+    <a href="/mapa-del-sitio/alumnos-uc" class="mapa"></a>
+  </div>
+  <div class="clear"></div></div>
+  
+    <div class="herramientas">
+      
+<ul>
+        
+        <li class="" >
+                  <a class="" href="/descubre-la-uc/">
+        DESCUBRE LA UC        
+        </a></li>
+        
+        
+        <li class="" >
+                  <a class="" href="/indice-de-carreras-y-postgrados">
+        ÍNDICE DE CARRERAS Y POSTGRADOS        
+        </a></li>
+        
+        
+        <li class="" >
+                  <a class="" href="http://dsrd.uc.cl/alumnos-uc/proyecto-educativo">
+        PROYECTO EDUCATIVO        
+        </a></li>
+        
+        
+        <li class="" >
+                  <a class="" href="/noticias">
+        NOTICIAS        
+        </a></li>
+        
+        
+        <li class="ultimo" >
+                  <a class="ultimo" href="/admission">
+        ADMISSION        
+        </a></li>
+        
+        
+      </ul>
+      
+      
+    </div>
+    <div class="clear"></div>
+     <div class="menu"  >
+                <div onmouseout="SelecMenu('sub_menu114','menutop_114');" class="menu1" >
+            <div class="bor_top"></div>
+            <div class="cont" align="center">
+              <a name="menutop" id="menutop_53" onmouseover="SelecMenu('sub_menu53','menutop_53');" href="/futuros-alumnos/"   >FUTUROS   ALUMNOS</a></div>
+          </div>
+          
+                    <div onmouseout="SelecMenu('sub_menu114','menutop_114');" class="menu2" >
+            <div class="bor_top"></div>
+            <div class="cont" align="center">
+              <a name="menutop" id="menutop_128" onmouseover="SelecMenu('sub_menu128','menutop_128');" href="/orientadores-y-profesores/"   >ORIENTADORES Y PADRES</a></div>
+          </div>
+          
+                    <div onmouseout="SelecMenu('sub_menu114','menutop_114');" class="menu3" >
+            <div class="bor_top"></div>
+            <div class="cont" align="center">
+              <a name="menutop" id="menutop_114" onmouseover="SelecMenu('sub_menu114','menutop_114');" href="/alumnos-uc/"  class="activo" >ALUMNOS UC</a></div>
+          </div>
+          
+                    <div onmouseout="SelecMenu('sub_menu114','menutop_114');" class="menu4" >
+            <div class="bor_top"></div>
+            <div class="cont" align="center">
+              <a name="menutop" id="menutop_230" onmouseover="SelecMenu('sub_menu230','menutop_230');" href="/alumnos-internacionales/"   >ALUMNOS INTERNACIONALES</a></div>
+          </div>
+          
+                    <div onmouseout="SelecMenu('sub_menu114','menutop_114');" class="menu5" >
+            <div class="bor_top"></div>
+            <div class="cont" align="center">
+              <a name="menutop" id="menutop_309" onmouseover="SelecMenu('sub_menu309','menutop_309');" href="/egresados/"   >EGRESADOS</a></div>
+          </div>
+          
+                    <div onmouseout="SelecMenu('sub_menu114','menutop_114');" class="menu6" >
+            <div class="bor_top"></div>
+            <div class="cont" align="center">
+              <a name="menutop" id="menutop_267" onmouseover="SelecMenu('sub_menu267','menutop_267');" href="/postgrados-y-postitulos/"   >POSTGRADO Y POSTITULOS</a></div>
+          </div>
+          
+                    <div onmouseout="SelecMenu('sub_menu114','menutop_114');" class="menu7" >
+            <div class="bor_top"></div>
+            <div class="cont" align="center">
+              <a name="menutop" id="menutop_314" onmouseover="SelecMenu('sub_menu314','menutop_314');" href="/directivos-docentes-y-academicos/"   >DIRECTIVOS DOCENTES Y ACADEMICOS</a></div>
+          </div>
+          
+          
+        <div class="clear"></div>
+        <div >
+        <div onmouseout="SelecMenu('sub_menu114','menutop_114');" onmouseover="javascript:SelecMenu('sub_menu53','menutop_53');" name="submenus" id="sub_menu53" class="sub_menu1" style="display:none;"><ul style="list-style-position:outside;"><li > <a href="/futuros-alumnos/carreras-requisitos" >Admisión Vía PSU</a></li><li > <a href="/futuros-alumnos/postulacion" >Admisión Especial</a></li><li > <a href="/futuros-alumnos/alumno-provisional" >Alumno Provisional</a></li><li > <a href="/futuros-alumnos/carreras" >Carreras UC</a></li><li > <a href="/futuros-alumnos/visita-la-uc" >Visita la UC</a></li><li > <a href="http://arancelesybeneficios.uc.cl/" target="blank">Arancel y Financiamiento</a></li><li > <a href="http://relacionesinternacionales.uc.cl/ipor-que-vivir-una-experiencia-internacional" target="blank">Intercambio Internacional</a></li></ul></div><div onmouseout="SelecMenu('sub_menu114','menutop_114');" onmouseover="javascript:SelecMenu('sub_menu128','menutop_128');" name="submenus" id="sub_menu128" class="sub_menu2" style="display:none;"><ul style="list-style-position:outside;"><li > <a href="/orientadores-y-padres/charlas-en-la-uc" >Charlas UC</a></li><li > <a href="/orientadores-y-padres/visita-la-uc" >Visita la UC</a></li><li > <a href="/orientadores-y-padres/expo-futuro-novato-uc-4" >Expo Futuro Novato UC</a></li><li > <a href="/orientadores-y-padres/semana-del-postulante" >Semana del Postulante</a></li><li > <a href="/orientadores-y-padres/difusion-internacional" >Difusión Internacional</a></li><li > <a href="http://dsrd.uc.cl/futuros-alumnos/carreras-requisitos" >Admisión Vía PSU</a></li></ul></div><div onmouseout="SelecMenu('sub_menu114','menutop_114');" onmouseover="javascript:SelecMenu('sub_menu114','menutop_114');" name="submenus" id="sub_menu114" class="sub_menu3" style="display:block;"><ul style="list-style-position:outside;"><li > <strong><a href="http://dsrd.uc.cl/alumnos-uc/cursos/primer-sem" >Cursos</a></strong></li><li > <a href="/alumnos-uc/guia-de-la-inscripcion" >Inscripción de Cursos</a></li><li > <a href="/alumnos-uc/proyecto-educativo" >Programas de Estudios</a></li><li > <a href="/alumnos-uc/mi-portal-uc" >Servicios Académicos</a></li><li > <a href="/alumnos-uc/reglamento-estudiantiles" >Información Académica</a></li><li > <a href="/alumnos-uc/nomina-premio-matricula-de-honor" >Premio a la Excelencia</a></li><li > <a href="/alumnos-uc/novatos" >Novatos</a></li></ul></div><div onmouseout="SelecMenu('sub_menu114','menutop_114');" onmouseover="javascript:SelecMenu('sub_menu230','menutop_230');" name="submenus" id="sub_menu230" class="sub_menu4" style="display:none;"><ul style="list-style-position:outside;"><li > <a href="/alumnos-internacionales/admision-al-pregrado" >Alumno Internacional Pregrado</a></li><li > <a href="/alumnos-internacionales/aranceles" >Arancel y Financiamiento</a></li><li > <a href="/alumnos-internacionales/apoyo-al-alumno-internacional" >Apoyo al alumno Internacional</a></li><li > <a href="/alumnos-internacionales/alumno-convenio-de-intercambio" >Alumnos de Intercambio</a></li><li > <a href="/alumnos-internacionales/programas-de-estudios" >Programas de Estudios</a></li><li > <a href="/alumnos-internacionales/excelencia-y-tradicion" >¿Por qué estudiar en la UC?</a></li></ul></div><div onmouseout="SelecMenu('sub_menu114','menutop_114');" onmouseover="javascript:SelecMenu('sub_menu309','menutop_309');" name="submenus" id="sub_menu309" class="sub_menu5" style="display:none;"><ul style="list-style-position:outside;"><li > <a href="/egresados/certificacion-estudiantil" >Certificación Estudiantil</a></li><li > <a href="/egresados/programas-de-postgrado" >Programas de Postgrado</a></li><li > <a href="http://alumni.uc.cl/" target="blank">Asociación de Ex-Alumnos</a></li><li > <a href="http://www.mercadolaboraluc.cl/" target="blank">Mercado Laboral UC</a></li></ul></div><div onmouseout="SelecMenu('sub_menu114','menutop_114');" onmouseover="javascript:SelecMenu('sub_menu267','menutop_267');" name="submenus" id="sub_menu267" class="sub_menu6" style="display:none;"><ul style="list-style-position:outside;"><li > <a href="/postgrado-y-postitulos/admision-semestral" >Admisión</a></li><li > <a href="/postgrado-y-postitulos/programas-de-postgrado-y-postitulo" >Programas de Postgrado</a></li><li > <a href="/postgrado-y-postitulos/guia-de-la-inscripcion" >Inscripción de Cursos</a></li><li > <a href="/postgrado-y-postitulos/reglamentos-estudiantiles" >Información Académica</a></li><li > <a href="/postgrado-y-postitulos/arancel-y-financiamiento" >Arancel y Financiamiento</a></li></ul></div><div onmouseout="SelecMenu('sub_menu114','menutop_114');" onmouseover="javascript:SelecMenu('sub_menu314','menutop_314');" name="submenus" id="sub_menu314" class="sub_menu7" style="display:none;"><ul style="list-style-position:outside;"><li > <a href="https://www2.puc.cl/ListaCurso/ListaCursoProf" target="blank">Lista de Cursos</a></li><li > <a href="/directivos-docentes-y-academicos/actas-de-notas" >Actas de Notas</a></li><li > <a href="/directivos-docentes-y-academicos/programacion-academica" >Programación Académica</a></li><li > <a href="/directivos-docentes-y-academicos/gestion-academica" >Sistemas Registros</a></li><li > <a href="/directivos-docentes-y-academicos/sistemas-de-admision" >Sistemas Admisión</a></li><li > <a href="/directivos-docentes-y-academicos/admision-a-la-uc" >Estudios e Informes</a></li><li > <a href="/directivos-docentes-y-academicos/reglamentos-estudiantiles" >Información Académica</a></li></ul></div>        </div>
+
+      <div class="clear"></div>
+    </div>
+    <br />
+    
+    <div class="miga">
+      
+    </div>
+    <div class="clear"></div>
+          
+    <div class="interior">  
+    	         
+<div class="menu_int_left3">           
+  <ul>             
+
+    <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto116');">
+                    <a   href="http://dsrd.uc.cl/alumnos-uc/cursos/primer-sem"  >Programación  Cursos</a>                     <ul name="nietos" id="nieto116" style="display:block;">                    <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto116');"><a href="/alumnos-uc/cursos/programacion-cursos/descripcion-y-nomenclatura" >Nomenclatura</a>  </li>
+                                     <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto116');"><a href="/alumnos-uc/cursos/programacion-cursos/siglas-de-cursos" >Siglas de cursos</a>  </li>
+                                     <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto116');"><a href="/alumnos-uc/cursos/programacion-cursos/modulacion-horaria" >Modulación Horaria</a>  </li>
+                                     <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto116');"><a href="/alumnos-uc/cursos/programacion-cursos/modificaciones-a-la-programacion-de-cursos" >Modificaciones a la Programación de Cursos</a>  </li>
+                                     <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto116');"><a href="/alumnos-uc/cursos/buscador-de-cursos" >Buscador de Cursos</a>  </li>
+                                     <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto116');"><a href="/alumnos-uc/cursos/programacion-cursos/tav" >Temporada Verano-TAV</a>  </li>
+                 </ul>      </li>             
+      <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto118');">
+                    <a   href="/alumnos-uc/cursos/calendario-de-pruebas-y-examenes"  >Calendario de Pruebas y Exámenes</a>                     <ul name="nietos" id="nieto118" style="display:block;">                    <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto118');"><a href="/alumnos-uc/cursos/calendario-de-pruebas-y-examenes/calendario-pruebas-y-examenes-2" >Primer Semestre</a>  </li>
+                                     <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto118');"><a href="/alumnos-uc/cursos/calendario-de-pruebas-y-examenes/calendario-de-pruebas-y-examenes-3" >Segundo Semestre</a>  </li>
+                 </ul>      </li>             
+      <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto117');">
+                    <a   href="/alumnos-uc/cursos/descripcion-de-cursos-2"  >Descripción de Cursos</a>                           </li>             
+      <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto411');">
+                    <a   href="https://www2.puc.cl/ControlPrerrequisitos/requisitos" target="blank" >Pre-Requisitos</a> <img height="9" width="8" alt="" src="/templates/uc/images/ico_externo.gif"/>                          </li>             
+      <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto692');">
+                    <a   href="/alumnos-uc/cursos/puntajes-de-corte-2"  >Puntajes de Corte</a>                           </li>             
+      <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto506');">
+                    <a   href="/alumnos-uc/cursos/horarios/siglas-y-creditos/creditos-de-un-curso"  >Créditos de un curso</a>                           </li>             
+      <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto119');">
+                    <a   href="/alumnos-uc/cursos/definiciones-de-evaluacion-academica"  >Evaluación y Calificación</a>                     <ul name="nietos" id="nieto119" style="display:block;">                    <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto119');"><a href="/alumnos-uc/cursos/evaluacion-y-calificacion/evaluacion-segun-unidad-academica" >Evaluación según Unidad Académica</a>  </li>
+                                     <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto119');"><a href="/alumnos-uc/cursos/evaluacion-y-calificacion/escala-de-calificacion-segun-reglamento-del-alumno" >Escala de Calificación según Reglamento del Alumno</a>  </li>
+                 </ul>      </li>             
+      <li onmouseout="SelecMenuHijo('nieto115');" onmouseover="SelecMenuHijo('nieto121');">
+                    <a   href="http://catalogo.uc.cl" target="blank" >Catálogo de Cursos</a> <img height="9" width="8" alt="" src="/templates/uc/images/ico_externo.gif"/>                          </li>             
+                 
+  </ul>        
+</div>
+
+      <div class="cont_interior2">		
+        <div class="contenido_int">
+                <h2>Programaci&oacute;n de Cursos</h2>
+          <div class="prog_anual">
+            
+              <div class="bg_menu">
+                <div class="menu_prog">
+                                        <a id="prog_0" href="/alumnos-uc/cursos/primer-sem" class="menu1 activo1">Primer Sem 2014</a>
+                                            <a id="prog_1" href="/alumnos-uc/cursos/segundo-sem" class="menu1 ">Segundo Sem 2013</a>
+                                            <a id="prog_2" href="/alumnos-uc/cursos/tav" class="menu2 ">TAV 2014</a>
+                       
+                </div>
+              </div>
+            <div id="programacion">
+            </div>
+          </div>
+          <script type="text/javascript" language="javascript">
+        		  $(document).ready(function(){
+          			  	xajax_CargaProgramacion(4,0,3);
+		          });
+          </script>
+
+        
+        <div class="arriba"><a href="javascript:history.back(0);" >Volver</a> | <a href="javascript:void(0);" onclick="window.scrollTo(0,0);">Subir</a></div>
+        </div>        
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+            
+    <div class="clear"></div>
+  </div>
+  <div><img src="/templates/uc/images/bottom_cont.jpg" alt="" /></div>
+  <div id="bottom">
+    <div><img src="/templates/uc/images/top_bottom.jpg" alt="" /></div>
+        <script type="text/javascript">
+    function EscondeMuestra()
+        {
+          var div = document.getElementById('menuinf');
+          var divshow = document.getElementById('divshow');
+          var divhide = document.getElementById('divhide');
+          
+          if (div.style.display == 'none')
+              {
+                div.style.display = 'block';
+                divshow.style.display = 'none';
+                divhide.style.display = 'block';
+              }
+          else
+              {
+                div.style.display = 'none';
+                divshow.style.display = 'block';
+                divhide.style.display = 'none';
+              }
+        }
+ </script>  
+  <!--div><img src="/templates/uc/images/top_bottom.jpg" alt="" /></div!-->
+    <div id="divshow" class="expandir" style="display:block;"><a onclick="EscondeMuestra();" href="javascript:void(0);">Mostrar enlaces</a></div>
+    <div class="cont">
+      <div id="divhide" class="cerrar" style="display:none;"><a onclick="EscondeMuestra();" href="javascript:void(0);">Esconder Enlaces</a></div>
+      <div id="menuinf" style="display:none;">
+       <div class="cont_left">
+      			<h4><a href="/descubre-la-uc/">Descubre la UC</a></h4>
+								<ul>
+												  <li><a href="/descubre-la-uc/los-mejores-puntajes-prefieren-la-uc">Los mejores puntajes</a></li>
+						  							  <li><a href="/descubre-la-uc/ranking-mundial-de-universidades-the-times-higher-education-supplement-thes-2">Ranking</a></li>
+						  							  <li><a href="http://www.uc.cl/es/la-universidad/premios-nacionales">Premios Nacionales</a></li>
+						  							  <li><a href="http://dsrd.uc.cl/orientadores-y-padres/visita-los-campus">Visita la UC</a></li>
+						  					</ul>			
+		  			<h4><a href="/indice-de-carreras-y-postgrados">Índice de Carreras y Postgrados</a></h4>
+								<ul>
+												  <li><a href="/">Malla y Folleto</a></li>
+						  							  <li><a href="/">College</a></li>
+						  					</ul>			
+		  			<h4><a href="http://dsrd.uc.cl/alumnos-uc/proyecto-educativo">Proyecto Educativo</a></h4>
+						<h4><a href="/noticias">Noticias</a></h4>
+								<ul>
+												  <li><a href="/noticias-2">Noticias futuros alumnos</a></li>
+						  					</ul>			
+		  			<h4><a href="/admission">Admission</a></h4>
+			      </div>
+      <div class="cont_right">		
+                    <div class="bloque">
+                <h4><a href="/futuros-alumnos/">Futuros   Alumnos</a></h4>
+                <ul>
+                                        <li><a href="/futuros-alumnos/carreras-requisitos">Admisión Vía PSU</a></li>
+                                          <li><a href="/futuros-alumnos/postulacion">Admisión Especial</a></li>
+                                          <li><a href="/futuros-alumnos/alumno-provisional">Alumno Provisional</a></li>
+                                          <li><a href="/futuros-alumnos/carreras">Carreras UC</a></li>
+                                          <li><a href="/futuros-alumnos/visita-la-uc">Visita la UC</a></li>
+                                          <li><a href="http://arancelesybeneficios.uc.cl/">Arancel y Financiamiento</a></li>
+                                          <li><a href="http://relacionesinternacionales.uc.cl/ipor-que-vivir-una-experiencia-internacional">Intercambio Internacional</a></li>
+                      
+               </ul>
+            </div>
+                    <div class="bloque">
+                <h4><a href="/orientadores-y-profesores/">Orientadores y Padres</a></h4>
+                <ul>
+                                        <li><a href="/orientadores-y-padres/charlas-en-la-uc">Charlas UC</a></li>
+                                          <li><a href="/orientadores-y-padres/visita-la-uc">Visita la UC</a></li>
+                                          <li><a href="/orientadores-y-padres/expo-futuro-novato-uc-4">Expo Futuro Novato UC</a></li>
+                                          <li><a href="/orientadores-y-padres/semana-del-postulante">Semana del Postulante</a></li>
+                                          <li><a href="/orientadores-y-padres/difusion-internacional">Difusión Internacional</a></li>
+                                          <li><a href="http://dsrd.uc.cl/futuros-alumnos/carreras-requisitos">Admisión Vía PSU</a></li>
+                      
+               </ul>
+            </div>
+                    <div class="bloque">
+                <h4><a href="/alumnos-uc/">Alumnos UC</a></h4>
+                <ul>
+                                        <li><a href="http://dsrd.uc.cl/alumnos-uc/cursos/primer-sem">Cursos</a></li>
+                                          <li><a href="/alumnos-uc/guia-de-la-inscripcion">Inscripción de Cursos</a></li>
+                                          <li><a href="/alumnos-uc/proyecto-educativo">Programas de Estudios</a></li>
+                                          <li><a href="/alumnos-uc/mi-portal-uc">Servicios Académicos</a></li>
+                                          <li><a href="/alumnos-uc/reglamento-estudiantiles">Información Académica</a></li>
+                                          <li><a href="/alumnos-uc/nomina-premio-matricula-de-honor">Premio a la Excelencia</a></li>
+                                          <li><a href="/alumnos-uc/novatos">Novatos</a></li>
+                      
+               </ul>
+            </div>
+                    <div class="bloque">
+                <h4><a href="/alumnos-internacionales/">Alumnos Internacionales</a></h4>
+                <ul>
+                                        <li><a href="/alumnos-internacionales/admision-al-pregrado">Alumno Internacional Pregrado</a></li>
+                                          <li><a href="/alumnos-internacionales/aranceles">Arancel y Financiamiento</a></li>
+                                          <li><a href="/alumnos-internacionales/apoyo-al-alumno-internacional">Apoyo al alumno Internacional</a></li>
+                                          <li><a href="/alumnos-internacionales/alumno-convenio-de-intercambio">Alumnos de Intercambio</a></li>
+                                          <li><a href="/alumnos-internacionales/programas-de-estudios">Programas de Estudios</a></li>
+                                          <li><a href="/alumnos-internacionales/excelencia-y-tradicion">¿Por qué estudiar en la UC?</a></li>
+                      
+               </ul>
+            </div>
+                    <div class="clear"></div>
+                        <div class="bloque">
+                <h4><a href="/egresados/">Egresados</a></h4>
+                <ul>
+                                        <li><a href="/egresados/certificacion-estudiantil">Certificación Estudiantil</a></li>
+                                          <li><a href="/egresados/programas-de-postgrado">Programas de Postgrado</a></li>
+                                          <li><a href="http://alumni.uc.cl/">Asociación de Ex-Alumnos</a></li>
+                                          <li><a href="http://www.mercadolaboraluc.cl/">Mercado Laboral UC</a></li>
+                      
+               </ul>
+            </div>
+                    <div class="bloque">
+                <h4><a href="/postgrados-y-postitulos/">Postgrado y Postitulos</a></h4>
+                <ul>
+                                        <li><a href="/postgrado-y-postitulos/admision-semestral">Admisión</a></li>
+                                          <li><a href="/postgrado-y-postitulos/programas-de-postgrado-y-postitulo">Programas de Postgrado</a></li>
+                                          <li><a href="/postgrado-y-postitulos/guia-de-la-inscripcion">Inscripción de Cursos</a></li>
+                                          <li><a href="/postgrado-y-postitulos/reglamentos-estudiantiles">Información Académica</a></li>
+                                          <li><a href="/postgrado-y-postitulos/arancel-y-financiamiento">Arancel y Financiamiento</a></li>
+                      
+               </ul>
+            </div>
+                    <div class="bloque">
+                <h4><a href="/directivos-docentes-y-academicos/">Directivos Docentes y Academicos</a></h4>
+                <ul>
+                                        <li><a href="https://www2.puc.cl/ListaCurso/ListaCursoProf">Lista de Cursos</a></li>
+                                          <li><a href="/directivos-docentes-y-academicos/actas-de-notas">Actas de Notas</a></li>
+                                          <li><a href="/directivos-docentes-y-academicos/programacion-academica">Programación Académica</a></li>
+                                          <li><a href="/directivos-docentes-y-academicos/gestion-academica">Sistemas Registros</a></li>
+                                          <li><a href="/directivos-docentes-y-academicos/sistemas-de-admision">Sistemas Admisión</a></li>
+                                          <li><a href="/directivos-docentes-y-academicos/admision-a-la-uc">Estudios e Informes</a></li>
+                                          <li><a href="/directivos-docentes-y-academicos/reglamentos-estudiantiles">Información Académica</a></li>
+                      
+               </ul>
+            </div>
+                    <div class="clear"></div>
+                  </div>
+      <div class="clear"></div>
+    </div>
+    </div>
+     
+    <div><img src="/templates/uc/images/bottom_bottom.jpg" alt="" /></div>
+  </div>
+  <div class="sub_bottom">
+    <div class="quienes_somos">
+        <a href="/menu-superior/quienes-somos">Quienes Somos</a> | 
+         <a href="/futuros-alumnos/contacto">Contacto</a> | 
+         <a href="/menu-superior/preguntas-frecuentes/admision-via-psu">Preguntas Frecuentes</a> | 
+    
+      </div>
+    <div class="ser_reg">
+      <h2><span>Direcci&oacute;n de Servicios y Registros Docentes</span></h2>
+      
+      Donde Encontrarnos:&nbsp;&nbsp;
+       
+      <a href="/sedes/san-joaquin">Campus San Joaquín</a>
+        
+      <a href="/sedes/casa-central">Campus Casa Central</a>
+        
+      <a href="/sedes/lo-contador">Campus Lo Contador</a>
+       
+    </div>
+    <div class="clear"></div>    
+    <script type="text/javascript" src="/js/shortcut.js"></script>
+
+<script type="text/javascript" defer="defer">
+  shortcut.add("Shift+0",function() {
+	   location.href='descubre-la-uc';
+    });
+  shortcut.add("Shift+1",function() {
+	   location.href='/';
+    });
+ shortcut.add("Shift+2",function() {
+	   location.href='futuros-alumnos';
+    });
+ shortcut.add("Shift+3",function() {
+	   location.href='orientadores-y-profesores';
+    });
+ shortcut.add("Shift+4",function() {
+	   location.href='alumnos-uc';
+    });
+ shortcut.add("Shift+5",function() {
+	   location.href='alumnos-internacionales';
+    });
+ shortcut.add("Shift+6",function() {
+	   location.href='egresados';
+    });
+ shortcut.add("Shift+7",function() {
+	   location.href='postgrados-y-postitulos';
+    });
+ shortcut.add("Shift+8",function() {
+	   location.href='directivos-docentes-y-academicos';
+    });
+ shortcut.add("Shift+k",function() {
+	   location.href='indice-de-carerras-y-postgrados';
+    });
+</script><!-- inicio Estadisticas Sitios Web 17_11_2010 -->
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+<!-- Inicio Estadisticas Sitios Web UC(UC y Subdominios) -->  
+  _gaq.push(['_setAccount', 'UA-2144228-21']);
+  _gaq.push(['_setDomainName', '.uc.cl']);
+  _gaq.push(['_trackPageview']);
+<!-- Inicio Estadisticas sitio Informaticaestadisticas Sitio Admision y Registros Academicos -->  
+  _gaq.push(['t2._setAccount', 'UA-2144228-17']);
+  _gaq.push(['t2._setDomainName', '.uc.cl']);
+  _gaq.push(['t2._trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();  
+</script>
+
+<!-- Fin Estadisticas Web 17_11_2010 --><div style="text-align: right; color:#666666;">Optimizado para los navegadores Internet Explorer 8, FireFox y Chrome</div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+				<script type="text/javascript">
+					$(document).ready(function(){
+						$("body a").each(function(){
+							if($(this).attr("href")){
+								var href = $(this).attr("href");
+								if(href.substr(0,1) == "#"){
+									$(this).attr("href",location.href+href);
+								}
+							}
+						});
+					});
+				</script>
+				<!-- uc_interior_ancha-->

@@ -35,15 +35,17 @@ ActiveRecord::Schema.define(version: 20140603030914) do
     t.string   "acronym"
     t.integer  "academic_unit_id"
     t.integer  "teacher_id"
-    t.string   "semester_references"
+    t.integer  "semester_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   add_index "courses", ["academic_unit_id"], name: "index_courses_on_academic_unit_id"
+  add_index "courses", ["semester_id"], name: "index_courses_on_semester_id"
   add_index "courses", ["teacher_id"], name: "index_courses_on_teacher_id"
 
   create_table "semesters", force: true do |t|
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
