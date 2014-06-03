@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  acronym: MyString
+  academic_unit_id: 
+  teacher_id: 
+  semester_references: MyString
+
+two:
+  name: MyString
+  acronym: MyString
+  academic_unit_id: 
+  teacher_id: 
+  semester_references: MyString

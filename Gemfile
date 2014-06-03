@@ -33,6 +33,10 @@ end
 gem 'simple_form', '~> 3.0.2'
 gem 'cancan', '~> 1.6.10'
 gem 'bootstrap-sass', '~> 3.1.1'
+gem 'twitter-bootstrap-rails', '~> 2.2.8'
+gem 'less-rails', '~> 2.5.0'
+gem 'therubyracer', '~> 0.12.1'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
