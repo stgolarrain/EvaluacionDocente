@@ -10,7 +10,7 @@
       <th><%= model_class.human_attribute_name(:acronym) %></th>
       <th><%= model_class.human_attribute_name(:academic_unit_id) %></th>
       <th><%= model_class.human_attribute_name(:teacher_id) %></th>
-      <th><%= model_class.human_attribute_name(:semester_references) %></th>
+      <th><%= model_class.human_attribute_name(:semester_id) %></th>
       <th><%= model_class.human_attribute_name(:created_at) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
@@ -21,10 +21,10 @@
         <td><%= link_to course.id, course_path(course) %></td>
         <td><%= course.name %></td>
         <td><%= course.acronym %></td>
-        <td><%= course.academic_unit_id %></td>
-        <td><%= course.teacher_id %></td>
-        <td><%= course.semester_references %></td>
-        <td><%=l course.created_at %></td>
+        <td><%= course.academic_unit.name unless course.academic_unit.nil? %></td>
+        <td><%= course.teacher.name unless course.teacher.nil? %></td>
+        <td><%= course.semester.name %></td>
+        <td><%= course.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_course_path(course), :class => 'btn btn-mini' %>

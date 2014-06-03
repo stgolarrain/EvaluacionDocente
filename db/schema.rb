@@ -33,6 +33,11 @@ ActiveRecord::Schema.define(version: 20140603030914) do
   create_table "courses", force: true do |t|
     t.string   "name"
     t.string   "acronym"
+    t.string   "status"
+    t.string   "requirement"
+    t.string   "description"
+    t.string   "syllabus"
+    t.string   "web_page"
     t.integer  "academic_unit_id"
     t.integer  "teacher_id"
     t.integer  "semester_id"

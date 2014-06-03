@@ -1,5 +1,5 @@
 desc "Import courses from web crawler"
-task :import_courses2 => :environment do
+task :import_courses => :environment do
 	require 'capybara/dsl'
 	require 'capybara-webkit'
 	require 'nokogiri'
@@ -11,6 +11,8 @@ task :import_courses2 => :environment do
 	Capybara.current_driver = :webkit
 	Capybara.app_host = root
 	page.visit('/')
+	
+	course_count = 0
 
 	doc = Nokogiri::HTML(page.html)
 	doc.search('a.conenlace').each do |au|
@@ -34,8 +36,29 @@ task :import_courses2 => :environment do
 			puts "Description: #{data[7].child['href']}"
 			puts "Syllabus: #{data[8].child['href']}"
 			puts "Web Page: #{data[9].child['href']}"
+
+			academic_unit = AcademicUnit.where(:name => data[0].content).first_or_create
+			teacher = Teacher.where(:name => data[3].content).first_or_create
+			
+			year = data[4].content.split('-')[0]
+			semester = "#{data[4].content.split('-')[1].to_i % 2}"
+			semester = semester == 0 ? 2 : 1
+			semester = Semester.where(:name => "#{year}-#{semester}").first_or_create
+
+			course = Course.new( :acronym => data[1].content, :name => data[2].content, \
+						:status => data[5].content, :requirement => data[6].child['href'], \
+						:description => data[7].child['href'], :syllabus => data[8].child['href'], \
+						:web_page => data[9].child['href'])
+			course.teacher = teacher
+			course.academic_unit = academic_unit
+			course.semester = semester
+			if not course.save
+				errors << course.errors.messages
+				acronymus_errors << data[1].content
+			end
+			course_count = course_count + 1
 		end
-		
 	end
+	puts "\n== Number courses processed: #{course_count}"
 
 end
